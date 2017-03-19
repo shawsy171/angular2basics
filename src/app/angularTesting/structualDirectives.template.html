@@ -1,0 +1,7 @@
+<ul>
+    <li *ngFor='let vehicle of vehicles'>
+        {{vehicle.name}} -- {{vehicle.seats}}
+    </li>
+</ul>
+
+<span *ngIf='vehicles.length > 0'> The number of vehicles is {{vehicles.length}}</span>
